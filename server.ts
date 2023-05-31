@@ -6,7 +6,7 @@ import {authValidation} from "./middleware/authMiddleware"
 import mongoose from "mongoose";
 
 const PORT:number = 8080
-const uri:string = "mongodb+srv://kaswanjitendra8998:k6zOQA6EqV9al6uM@cluster0.r3ulxmu.mongodb.net/sploot?retryWrites=true&w=majority"
+const uri:string = "mongodb+srv://<username>:<password>@cluster0.r3ulxmu.mongodb.net/<DB>?retryWrites=true&w=majority"
 
 const express = require('express');
 const app:Express = express()
